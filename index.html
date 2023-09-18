@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Mike's Meatshack</title>
+		<link href="css/bootstrap4.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+		<link href="css/style6-1.css" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="manifest" href="favicon/site.webmanifest">
+		<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#d41b2c">
+		<link rel="shortcut icon" href="favicon/favicon.ico">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-config" content="favicon/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+	</head>
+	
+	<body>
+
+		<div class="sticky">
+			<div class="top-header">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-4 col-lg-4 col-md-4 col-5">
+							<div class="top-social">
+								<ul class="listnone-nav-left">
+									<li><a href="#fb"><i class="bi bi-facebook"></i></a></li>
+									<li><a href="#ig"><i class="bi bi-instagram"></i></a></li>
+									<li><a href="#tw"><i class="bi bi-twitter"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-8 col-lg-8 col-md-8 col-7">
+							<div class="top-text"> 
+								<ul class="listnone-nav-right">
+									<li class="text-block call-block d-none d-md-block"><i class="bi bi-telephone-fill"></i>&nbsp;&nbsp; 423-707-6900</li>
+									<li class="text-block mail-block d-none d-lg-block"><i class="bi bi-envelope-fill"></i>&nbsp;&nbsp; hey@mikesmeatshack.com</li>
+									<li class="text-block time-block"><i class="bi bi-calendar-check"></i>&nbsp;&nbsp; Wed-Sat 11am-8pm</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-5 col-lg-5 col-md-5 col-12">
+							<div id="header-logo"> 
+								<a href="#"><img src="images/logo.png" class="logo " alt=""></a>
+							</div>
+						</div>
+						<div class="col-xl-7 col-lg-7 col-md-7 col-12">
+							<div id="navigation">
+								<ul>
+									<li><a href="#menu" title="Menu">Menu</a></li>
+									<li class="d-none d-lg-block"><a href="#services" title="Services">Services</a></li>
+									<li><a href="#reviews" title="Reviews">Reviews</a></li>
+									<li><a href="#contact" title="Contact">Contact</a> </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="hero-section">
+			<div class="space-small">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-5 col-lg-5 col-md-6 col-12">
+							<div class="hero-caption">
+								<h1 class="hero-title">Home of the<br>magical meats.</h1>
+								<p class="hero-text">Come try some of our famous meats, only at Mike's Meatshack™ and participating partners.</p> 
+								<div id="hero-button">
+									<a onclick="orderNow()" class="btn btn-primary">Order now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="space-medium menu-spacer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-12">
+						<div class="section-title text-center">
+							<h1 class="anchor">Our menu<span id="menu"></span></h1>
+							<h5>Healthy &amp; delicious nutrition</h5>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6 col-12">
+						<div class="menu-block mb40">
+							<div class="menu-head">
+								<h2 class="menu-title"><span class="menu-icon"><img class="sm-icons" src="images/patty.png"></span>Mike's Patty</h2>
+							</div>
+							<div class="menu-list">
+								<ul class="listnone-menu">
+									<li>Flawlessly pressed and seared, Mike's smash burger is made with top-quality, never frozen beef. Served with american cheese, pickles, and Mike's special sauce. You will never experience another smash patty like this.</li>
+									<li>Served w/ chips & drink .......... <span class="meta-price">$7.99</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6 col-12">
+						<div class="menu-block mb60">
+							<div class="menu-head">
+								<h2 class="menu-title"><span class="menu-icon"><img class="sm-icons" src="images/sammy.png"></span>Mike's Sammy</h2>
+							</div>
+							<div class="menu-list">
+								<ul class="listnone-menu">
+									<li>Mike's sandwich is served with one-of-a-kind, salt-cured smoked beef brisket that is specially sourced from his cousins up North. Served with mustard and a little love, this sandwich is gonna have you beggin' for more.</li>
+									<li>Served w/ chips & drink .......... <span class="meta-price">$7.99</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6 col-12 mb30">
+						<div class="menu-block mb60">
+							<div class="menu-head"> 
+								<h2 class="menu-title"><span class="menu-icon"><img class="sm-icons" src="images/doggy.png"></span>Mike's Doggy</h2>
+							</div>
+							<div class="menu-list">
+								<ul class="listnone-menu">
+									<li>This isn't no ordinary hotdog. Mike's dog uses premium beef that is butterfly pan-seared to flavor perfection. Served with mustard, Mike's special sauce, and homemade relish. This is one dog you can't skip out on.</li>
+									<li>Served w/ beans & drink .......... <span class="meta-price">$6.99</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-12 col-lg-12 col-md-12 col-12 text-center"><a onclick="orderNow()" class="btn btn-primary">Order now</a></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="space-medium bg-second service-spacer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-12">
+						<div class="section-title-2 text-center">
+							<h1 class="anchor">Our services<span id="services"></span></h1>
+							<h5>For every type of occation</h5>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6 col-12">
+						<div class="service-block mb40">
+							<div class="service-img"> <img src="images/service-1.jpg" class="img-fluid" alt="">
+							</div>
+							 <h2 class="service-title"> <span href="#bd" class="title-2">Birthday parties</span> </h2>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6 col-12">
+						<div class="service-block mb40">
+							<div class="service-img"> <img src="images/service-2.jpg" class="img-fluid" alt="">
+							</div>
+							 <h2 class="service-title"> <span href="#cs" class="title-2">Catering service</span> </h2>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6 col-12">
+						<div class="service-block mb40">
+							<div class="service-img"> <img src="images/service-3.jpg" class="img-fluid" alt="">
+							</div>
+							 <h2 class="service-title"> <span class="title-2">Wedding day</span> </h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="space-medium review-spacer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-12">
+						<div class="section-title text-center">
+							<h1 class="anchor">Our Reviews<span id="reviews"></span></h1>
+							<h5>We appreciate all of our customers &amp; their opinions</h5>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6 col-12">
+						<div class="testimonial-block pinside30 bg-white outline mb30">
+							<div class="testimonial-img">
+								<img src="images/user-1.jpg" class="img-fluid rounded-circle" alt="">
+							</div>
+							<div class="testimonial-text">
+								<p>"I can't imagine a world without the Meat Club™. It has opened my eyes to the wonderful world of meats."</p>
+							</div>
+							<div class="testimonial-name">Candice Fitt</div>
+							<div class="testimonial-meta">(meat club™ member)</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6 col-12">
+						<div class="testimonial-block pinside30 bg-white outline mb30">
+							<div class="testimonial-img">
+								<img src="images/user-2.jpg" class="img-fluid rounded-circle" alt="">
+							</div>
+							<div class="testimonial-text">
+								<p>"Working for Mike's Meatshack™ has completely changed my life. I have peaked and am satisified."</p>
+							</div>
+							<div class="testimonial-name">James Welsh</div>
+							<div class="testimonial-meta">(regional manager)</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6 col-12">
+						<div class="testimonial-block pinside30 bg-white outline mb30">
+							<div class="testimonial-img">
+								<img src="images/user-3.jpg" class="img-fluid rounded-circle" alt="">
+							</div>
+							<div class="testimonial-text">
+								<p>"God, I'm in love with this place. If there is ever a Mike's Meatshack™ religion, I'd be the first to join."</p>
+							</div>
+							<div class="testimonial-name">Wilma Bowls</div>
+							<div class="testimonial-meta">(Loyal customer)</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="cta-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-12">
+						<h1 class="cta-title">Get the official shirt!</h1>
+						<p class="cta-text">Want to experience more than all of the meats we have to offer? Get the official Mike's Meatshack™ shirt below!</p> <a href="https://meatshack.bigcartel.com/product/mike-meatshack-shirt" target="_blank" class="btn btn-white">Get the shirt now</a> 
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-5 col-lg-5 col-md-5 col-12">
+						<div class="footer-widget">
+							<h2 class="footer-title mt60">Our mission</h2>
+							<p class="pr-5">Since the dawn of time, meat has been the most sought after form of nutrition for mankind. We are extremely proud and happy to serve all who demand the most premium of meats.</p>
+							<div class="footer-social mb30">
+								<ul class="listnone-foot">
+									<li><a href="#fb"><i class="bi bi-facebook"></i></a></li>
+									<li><a href="#ig"><i class="bi bi-instagram"></i></a></li>
+									<li><a href="#tw"><i class="bi bi-twitter"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-2 col-lg-2 col-md-2 col-12">
+						
+					</div>
+
+					<div class="col-xl-5 col-lg-5 col-md-5 col-12" id="contact">
+						<div class="footer-widget footer-contact">
+							<h2 class="footer-title mt60">Our contacts</h2>
+							<ul class="listnone-foot">
+								<li><i class="bi bi-geo-alt" style="margin: 8px 0 0 0;"></i><p>3208 Rossville Blvd Ste F3, <br>Chattanooga TN 37407</p></li>
+								<li><i class="bi bi-telephone"></i><p>423-707-6900</p></li>
+								<li><i class="bi bi-envelope"></i><p>hey@mikesmeatshack.com</p></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="tiny-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-12">Copyright Deluxo LLC, <script>document.write(new Date().getFullYear())</script>.</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+		function orderNow() {
+			alert("Mike's Meatshack is currently unavailable for online orders. Please call or visit your local Mike's Meatshack.");
+		}
+		</script>
+
+	</body>
+</html>
