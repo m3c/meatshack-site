@@ -126,7 +126,7 @@ hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #f1
 .top-text > ul { float: right; }
 .top-text .text-block{ padding-left: 20px;color:#fff; line-height: normal;}
 
-.hero-section { background:url(../images/hero-img-6.png) no-repeat; background-position: 85% 300%; background-size: 800px 800px; background-color: rgb(237, 183, 13); padding: 250px 0 0 0; height: 100vh; }
+.hero-section { background:url(../images/hero-img-6.png) no-repeat; background-position: 85% 100%; background-size: 800px 800px; background-color: rgb(237, 183, 13); padding: 250px 0 0 0; height: 100vh; }
 .hero-caption { padding-top: 50px; padding-bottom: 170px; }
 #hero-button { padding: 0 0 0 10px; }
 .hero-title { font-size: 40px; color: #fff; line-height: 50px; font-weight: 600; background-color: rgba(237, 183, 13, 0.5); margin-bottom: 30px; margin-top: 50px; text-transform:uppercase; padding: 5px 10px; border-radius: 10px; }
@@ -203,6 +203,9 @@ address { margin-bottom: 20px; font-style: normal; line-height: 1.43; }
 .menu-list ul li { margin-bottom:20px; }
 .meta-price { color:#d41b2c; font-size:17px; font-weight:800;}
 
+@media screen and (max-height: 918px) {
+    .hero-section { background-position: 85% 300%; }
+}
 @media screen and (max-width: 768px) {
     #header-logo > a { float: none; display: flex; justify-content: center; }
     #navigation { margin-top: 8px; }
